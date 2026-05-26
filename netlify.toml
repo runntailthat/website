@@ -1,0 +1,23 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # HSTS - forces HTTPS for 1 year
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+
+    # Clickjacking protection
+    X-Frame-Options = "SAMEORIGIN"
+
+    # XSS protection
+    X-Content-Type-Options = "nosniff"
+
+    # COOP - origin isolation
+    Cross-Origin-Opener-Policy = "same-origin-allow-popups"
+
+    # Referrer policy
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+    # Permissions policy
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+    # CSP - allows Google Drive images, fonts, and your own resources
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://lh3.googleusercontent.com https://drive.google.com; font-src 'self'; connect-src 'self'; frame-ancestors 'none';"

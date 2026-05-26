@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- HOMEPAGE -->
+  <url>
+    <loc>https://runntailthat.com/</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <!-- Key photos for Google Image Search -->
+    <image:image>
+      <image:loc>https://lh3.googleusercontent.com/d/19DrnRichX__1t62sSbefhBfMGp2ucDX2=w1200</image:loc>
+      <image:title>GMC Yukon XL exterior detail — Run N Tail That Detailing Winston-Salem NC</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://lh3.googleusercontent.com/d/1LwuYp-UEbN9tKCj7xajjtajOtxgnG5lA=w1200</image:loc>
+      <image:title>BMW X5 interior detail before and after — Run N Tail That Detailing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://lh3.googleusercontent.com/d/16U4EPATSnIe0yAUQVc_x2ICmGpmbfz5o=w1200</image:loc>
+      <image:title>Infiniti QX60 interior detail Winston-Salem NC</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://lh3.googleusercontent.com/d/1YiYUO6tCEsBuq5dqAksSupGKFQ_LqJgc=w1200</image:loc>
+      <image:title>Buick Enclave leather interior restoration — mobile detailing NC</image:title>
+    </image:image>
+  </url>
+
+</urlset>
